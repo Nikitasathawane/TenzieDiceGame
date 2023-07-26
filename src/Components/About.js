@@ -85,7 +85,7 @@ export default function About({mystyle,countdown,tenzies,setTenzies}) {
         
          
         
-            <main  className="style ">
+            <main  className="style">
          <label className="form-check-label"
           htmlFor="flexSwitchCheckDefault"></label>
             {tenzies && <Confetti />}
@@ -98,6 +98,8 @@ export default function About({mystyle,countdown,tenzies,setTenzies}) {
     
             <button 
                 className="roll-dice" 
+                
+
                 onClick={rollDice}
             >
                 {tenzies ? "New Game" : "Roll"}
