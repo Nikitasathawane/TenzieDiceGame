@@ -33,7 +33,7 @@ export default function App(){
          document.body.style.backgroundColor = "#bfe9ff";
          document.body.style.color = "#74ebd5";
          document.body.style.fontFamily = "'Libre Baskerville', serif";
-         document.body.style.
+        
   }
 }
 
